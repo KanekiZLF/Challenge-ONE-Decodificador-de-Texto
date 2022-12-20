@@ -101,7 +101,6 @@ btnCodificar.onclick = function() {
         resultado.textContent = "";
         return;
     }
-
     escreveCodificado();
     mensagensErro.innerHTML = "";
 }
@@ -113,8 +112,7 @@ btnDecodificar.onclick = function() {
         mostraErros(erros);
         resultado.textContent = "";
         return;
-    }
-    
+    }   
     escreveDecodificado();
     mensagensErro.innerHTML = "";
 }
