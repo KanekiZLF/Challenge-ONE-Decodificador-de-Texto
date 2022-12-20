@@ -4,15 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte de Letras do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <!-- Navegação e Inicio -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Script Inicial -->
-    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Script Geral -->
+    <script src="assets/js/script.js" defer></script>
     <title>Codificador - Decodificador</title>
 </head>
 <body>
-    <header>
-
-    </header>
-</body>
+ <header class="header">
+  <a class="logo" href="index.html"><img class="imglogo" src="assets/img/logo.png" alt="Logo Alura"></a>
+ </header>
+   <main class="main">
+    <section>
+     <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto..." ></textarea>
+      <div class="information"> 
+       <ul class="mensagens-erro">
+       </ul>
+      </div>
+     <div class="botoes"> 
+        <button type="button" class="btn-codificar">Codificar</button>
+        <button type="button" class="btn-decodificar">Decodificar</button>
+     </div>
+    </section>
+    <section class="container-result">
+        <textarea class="resultado" cols="20" rows="11" placeholder=" " readonly></textarea>
+        <button type="button" class="hidden btn-copiar">Copiar</button> 
+    </section>
+   </main>
+   <footer class="footer">
+   <div class="redes">
+    <p>Minhas redes:</p>
+     <a href="" title="KanekiZLF | GitHub" target="_blank">
+      <img src="assets/img/logo-github.png" alt="Logo do GitHub em formato circular." width="45" height="45" id="github">
+      GitHub
+     </a>
+      <a href=" " title="Luiz Fernando da Rocha Pimentel | LinkdIn" target="_blank">
+       <img src="assets/img/logo-linkedin.png" alt="Logo do LinkedIn em formato circular" width="45" height="45"  id="linkedin"> LinkdIn
+     </a>
+     <a href="#" title="Luiz Fernando R. Pimentel | Instagram">
+      <img src="assets/img/logo-instagram.png" alt="Logo do Instagram" width="45" height="45" id="instagram">
+      Instagram
+     </a>
+    </div>
+   <div class="creditos">© Desenvolvido por Luiz F. R. Pimentel</div>
+  </footer>
+ </body>
 </html>
