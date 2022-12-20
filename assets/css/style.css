@@ -1,0 +1,82 @@
+/* Navegação Inicio */
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body,html {
+    background-image: linear-gradient(to bottom,#eff1fa, #e9ecf8, #609ed4);
+    height: 100%;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+}
+
+.header {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 25px;
+    width: 35px;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-texto {
+    margin-top: 85px;
+    margin-left: 15px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 30px;
+    padding: 0.5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.mensagens-erro li::before {
+    content: url(assets/img/exclation.png);
+    width: 16px;
+    height: 17px;
+    vertical-align: middle;
+}
+
+.mensagens-erro li {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.btn-codificar {
+    background-color: #0a3871;
+    color: white;
+}
+
+.btn-decodificar {
+    margin-left: 30px;
+    background-color: #d8dfe8;
+    color: #0a3871;
+}
+
+button {
+    width: 325px;
+    height: 60px;
+    border: 1px solid #0a3871;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 3px 5px 12px #356ea9;
+}
+
+button:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity: 80%;
+}
+
